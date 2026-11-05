@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'latihan1.dart';
-import 'latihan2.dart';
-import 'latihan3.dart';
+import '1.dart';
+import '2.dart';
+import '3.dart';
 import 'bonus.dart';
 
 void main() {

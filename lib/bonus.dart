@@ -11,9 +11,9 @@ class _BonusBottomNavState extends State<BonusBottomNav> {
   int _currentIndex = 0;
 
   final List<Widget> _halaman = const [
-    Center(child: Text('Halaman Beranda', style: TextStyle(fontSize: 20))),
-    Center(child: Text('Halaman Cari', style: TextStyle(fontSize: 20))),
-    Center(child: Text('Halaman Profil', style: TextStyle(fontSize: 20))),
+    Center(child: Text('Beranda', style: TextStyle(fontSize: 20))),
+    Center(child: Text('Cari', style: TextStyle(fontSize: 20))),
+    Center(child: Text('Profil', style: TextStyle(fontSize: 20))),
   ];
 
   @override

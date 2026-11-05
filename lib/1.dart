@@ -6,7 +6,7 @@ class Latihan1Beranda extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Latihan 1 - Beranda')),
+      appBar: AppBar(title: const Text('Beranda')),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
@@ -15,7 +15,7 @@ class Latihan1Beranda extends StatelessWidget {
               MaterialPageRoute(builder: (context) => const Latihan1Tentang()),
             );
           },
-          child: const Text('Ke Halaman Tentang'),
+          child: const Text('Halaman Tentang'),
         ),
       ),
     );
@@ -28,7 +28,7 @@ class Latihan1Tentang extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Latihan 1 - Tentang')),
+      appBar: AppBar(title: const Text('Tentang')),
       body: Center(
         child: ElevatedButton(
           onPressed: () => Navigator.pop(context),

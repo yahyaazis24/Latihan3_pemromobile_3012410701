@@ -11,9 +11,10 @@ class Latihan2DaftarProduk extends StatelessWidget {
   const Latihan2DaftarProduk({super.key});
 
   final List<Produk> daftarProduk = const [
-    Produk('Laptop Gaming', 15000000),
-    Produk('Smartphone', 4500000),
-    Produk('Wireless Headset', 750000),
+    Produk('Laptop', 20000000),
+    Produk('Smartphone', 2000000),
+    Produk('smartwatch', 200000),
+
   ];
 
   @override
